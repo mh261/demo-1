@@ -2,15 +2,16 @@
 <div>
     <div class="title">
         <div id="menu">
-            <p>
-            <button mat-button [matMenuTriggerFor]="menu"> MENU </button>
-            <mat-menu #menu="matMenu">
-            <button mat-menu-item> Vị kem tùy chọn </button>
-            <button mat-menu-item> Vị kem cơ bản </button>
-            </mat-menu>
-            Liên hệ
-            </p>
-         
+            <nav>
+              <a><button mat-button [matMenuTriggerFor]="menu"> MENU </button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item> Vị kem tùy chọn </button>
+                    <button mat-menu-item> Vị kem cơ bản </button>
+                </mat-menu> </a>  
+                <a>Liên hệ</a>
+                <a></a>
+            </nav>
+        </div>
     </div>
 
     <div class="main">
