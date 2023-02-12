@@ -1,9 +1,24 @@
+
+
 .title #menu{
+    flex: 1  1 auto;
     background-color: pink;
-    text-align: center;
-    font-size: 20px;
-    // margin-right: 25px;
+    font-size: 18px;
+    color: white;
 }
+
+.example-icon
+{
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+
+#menu #lien_he {
+  text-align: center;
+}
+
 
 .main #header {
     background-color: white;
@@ -30,5 +45,10 @@ margin-top: 20px;
 }
 
 .main #button{
-    background-color: pink;
+    background-color: white;
+    font-size: medium;
+    height: 40px;
+    width:  60px;
+    border-radius: 5px;
+    
 }
