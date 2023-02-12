@@ -1,0 +1,11 @@
+
+#blogs {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  }
+  
+mat-card{
+    color: white;
+
+}
