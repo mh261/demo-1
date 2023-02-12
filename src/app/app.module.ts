@@ -53,7 +53,7 @@ import {OverlayModule} from '@angular/cdk/overlay';
 import {CdkMenuModule} from '@angular/cdk/menu';
 import {DialogModule} from '@angular/cdk/dialog';
 import { CardComponent } from './components/card/card.component';
-import { DemoComponent } from './components/demo/demo.component';
+import { Demo1Component } from './components/demo1/demo1.component';
 
 
 @NgModule({
@@ -61,7 +61,7 @@ import { DemoComponent } from './components/demo/demo.component';
     AppComponent,
     NavbarComponent,
     CardComponent,
-    DemoComponent
+    Demo1Component
   ],
   imports: [
     BrowserModule,
