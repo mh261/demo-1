@@ -15,7 +15,7 @@ export class Demo1Component {
      img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-vani1603442818_300x300.png&w=300&h=300&zc=2&q=85",
      sub : "Kem vani có vị ngọt của sữa",
      price : "35.000đ",
-     sold : "Sold out",
+     sold : "Hết hàng",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-tra-xanh-matcha1603442708_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Matcha có vị đắng của trà xanh ",
       price : "35.000đ",
-      sold: "Add to cart"
+      sold: "Còn hàng"
      },
      {
       id: 3,
@@ -31,7 +31,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-so-co-la1603442697_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Socola có vị đắng nhẹ, ngọt thanh",
       price : "35.000đ",
-      sold : "Sold out"
+      sold : "Hết hàng"
 
      },
      {
@@ -40,7 +40,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-viet-quat1603442552_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Việt quất ngọt thanh, hương thơm đậm đà ",
       price : "40.000đ",
-      sold : "Sold out"
+      sold : "Còn hàng"
      },
 
      {
@@ -49,7 +49,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-nhan1603442631_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Vị ngọt ngào tan nơi đầu lưỡi",
       price : "35.000đ",
-      sold : "Sold out"
+      sold : "Còn hàng"
      },
      {
       id: 6,
@@ -57,7 +57,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-dao1653715865_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Vị đào ngọt ngào ngập tràn nơi đầu lưỡi",
       price : "35.000đ",
-      sold : "Add to cart"
+      sold : "Hết hàng"
      },
      {
       id: 7,
@@ -65,7 +65,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-phuc-bon-tu1603442566_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Hương vị bồn tử chua ngọt mới lạ ",
       price : "40.000đ",
-      sold : "Sold out"
+      sold : "Hết hàng"
      },
      {
       id: 8,
@@ -73,7 +73,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-ngan-ha1603443028_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Chua ngọt thơm mát của sữa chua ",
       price : "40.000đ",
-      sold : "Sold out"
+      sold : "Hết hàng"
      },
      {
       id: 9,
@@ -81,7 +81,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-tran-chau-duong-den1603443016_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Tín đồ của team trà sữa đường đen",
       price : "35.000đ",
-      sold : "Add to cart"
+      sold : "Còn hàng"
      },
      {
       id: 10,
@@ -89,7 +89,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-bac-ha-chip1603442845_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Sự kết hợp đắng choco và mát lạnh bạc hà",
       price : "40.000đ",
-      sold : "Add to cart "
+      sold : "Còn hàng "
      },
      {
       id: 11 ,
@@ -97,7 +97,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-chanh-day1603442599_300x300.png&w=300&h=300&zc=2&q=85",
       sub : " Vị chua chua thanh mát ",
       price : "40.000đ",
-      sold : "Add to cart"
+      sold : "Còn hàng"
      },
      {
       id: 12 ,
@@ -105,7 +105,7 @@ export class Demo1Component {
       img : "https://kemmiennhietdoi.com/timthumb.php?src=upload/product/kem-kiwi1603442616_300x300.png&w=300&h=300&zc=2&q=85",
       sub : "Sự chua ngọt của kiwi lạ miệng nhưng đầy hấp dẫn",
       price : "40.000đ",
-      sold : "Add to cart"
+      sold : "Hết hàng"
      },
      
   ];

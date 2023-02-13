@@ -54,6 +54,7 @@ import {CdkMenuModule} from '@angular/cdk/menu';
 import {DialogModule} from '@angular/cdk/dialog';
 import { CardComponent } from './components/card/card.component';
 import { Demo1Component } from './components/demo1/demo1.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 
 @NgModule({
@@ -61,7 +62,8 @@ import { Demo1Component } from './components/demo1/demo1.component';
     AppComponent,
     NavbarComponent,
     CardComponent,
-    Demo1Component
+    Demo1Component,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
