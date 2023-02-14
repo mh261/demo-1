@@ -50,7 +50,7 @@
       <h1 id="names"> {{p.name}}</h1>
       <img [src]="p.img" alt="Photo of Ice Cream">
       <h3>{{p.sub}} </h3>
-      <p>{{p.price | currency: "VND" }}</p>
+      <p>{{p.price | currency: "VND" }} VND</p>
       <!-- <p id="solds" *ngIf="p.inStock == 0">Het hang</p> -->
       <div *ngIf="p.inStock !== 0">
         <button  (click)="this.icecreamSrvc.add(p)" id="button"> Mua hàng </button>

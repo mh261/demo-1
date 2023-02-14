@@ -1,5 +1,5 @@
 .header {
-    background-color: violet;
+    background-color: pink;
     height: 60px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .nav button:not(.bar):hover {
-    background-color: #ccc;
+    background-color: white;
     transform: scale(1.1, 1.1);
     transition: 0.5s;
     color: #000;
@@ -59,17 +59,20 @@
 .nav .sub_info {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 100%;
+    position: sticky;
+    top: 0;
     min-width: 200px;
     display: none;
     box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.3);
+    z-index: 1 ;
 }
 
-.nav .sub_info button {
+
+ .sub_info button {
     box-shadow: none !important;
     margin-left: 0;
     border-radius: 0;
+   
 }
 
 .nav .sub_info button:hover {
@@ -84,8 +87,6 @@
 
     .nav .sub_info {
         // display: block;
-
-
 
         
     }

@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class CartComponent {
 
+  showSubInfo() {
+    let temp = document.getElementById('sub_info')
+    if(temp?.style.display === "none"){
+      temp.style.display = 'flex';
+      temp.style.flexDirection = 'column';
+    }else{
+      temp!.style.display = 'none';
+    }
 }
+}
+
+

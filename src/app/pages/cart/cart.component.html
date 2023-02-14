@@ -1,1 +1,51 @@
-<p>cart works!</p>
+<div>
+    <header class="header">
+    <nav class="nav">
+      <div class="menu">
+        <button class="bar" (click)="showSubInfo()">
+          <span class="material-symbols-outlined">menu</span>
+          <!-- <div class="sub_info" *ngIf="this.temp == false">
+            <button>Khuyến mãi đặc biệt</button>
+            <button>Liên hệ</button>
+            <button>Hệ thống cửa hàng</button>
+            <button>Giới thiệu</button>
+          </div> -->
+           <div id="sub_info" >
+            <button>Khuyến mãi đặc biệt</button>
+            <button>Liên hệ</button>
+            <button>Hệ thống cửa hàng</button>
+            <button>Giới thiệu</button>
+          </div>
+        </button>
+
+
+        <button>Menu</button>
+      </div>
+      <div class="info">
+        <button>Khuyến mãi đặc biệt</button>
+        <button>Liên hệ</button>
+        <button>Hệ thống cửa hàng</button>
+        <button>Giới thiệu</button>
+      </div>
+
+      <div class="personal">
+        <i></i>
+        <button>Sign In</button>
+        
+        <button [routerLink]="['/cart']" class="add_cart">
+          <span class="material-symbols-outlined">
+          shopping_cart
+          </span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div>
+        <div>
+            <p>Hình ảnh sản phẩm</p>
+            
+        </div>
+  </div>
+</div>
+

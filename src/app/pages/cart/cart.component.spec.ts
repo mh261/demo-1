@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { Demo1Component } from 'src/app/components/demo1/demo1.component';
 import { CartComponent } from './cart.component';
 
 describe('CartComponent', () => {
